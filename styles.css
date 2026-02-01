@@ -41,12 +41,39 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  background: var(--color-dark);
+  color: #fff;
 }
 
-header nav {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header a:hover {
+  opacity: 0.85;
+}
+
+.logo {
+  font-weight: 700;
+}
+
+.view-resume,
+.btn-primary {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  background: #444;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: inherit;
+}
+
+.btn-primary {
+  background: var(--color-dark);
 }
 
 header nav ul {
@@ -55,6 +82,10 @@ header nav ul {
   margin: 0;
   padding: 0;
   gap: 1.5rem;
+}
+
+header .view-resume {
+  background: #444;
 }
 
 .hero {
