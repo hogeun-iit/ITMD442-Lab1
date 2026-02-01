@@ -131,7 +131,7 @@ main {
   border-radius: 5px;
 }
 
-.projects {
+.highlights {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
@@ -241,7 +241,7 @@ textarea:focus {
     padding: 2rem 1rem;
   }
 
-  .projects {
+  .highlights {
     grid-template-columns: 1fr;
     padding: 2rem 1rem;
   }
@@ -264,7 +264,7 @@ textarea:focus {
   }
 }
 
-@media (max-width: 510px) {
+@media (max-width: 525px) {
 
     .logo{
         align-self: center;
