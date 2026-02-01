@@ -45,6 +45,24 @@ header {
   color: #fff;
 }
 
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1.5rem;
+}
+  
+header .view-resume {
+  background: #444;
+}
+
 header a {
   color: inherit;
   text-decoration: none;
@@ -74,18 +92,6 @@ header a:hover {
 
 .btn-primary {
   background: var(--color-dark);
-}
-
-header nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  gap: 1.5rem;
-}
-
-header .view-resume {
-  background: #444;
 }
 
 .hero {
