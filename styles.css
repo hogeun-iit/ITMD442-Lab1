@@ -178,6 +178,31 @@ textarea:focus {
 }
 
 @media (max-width: 700px) {
+  header {
+    padding: 1rem;
+  }
+
+  header nav {
+    gap: 0.75rem;
+  }
+
+  header nav ul {
+    gap: 0.75rem;
+  }
+
+  header nav ul a {
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    font-size: 0.95rem;
+  }
+
+  .view-resume {
+    padding: 0.4rem 0.9rem;
+    font-size: 0.875rem;
+  }
+
   .hero {
     grid-template-columns: 1fr;
     padding: 2rem 1rem;
