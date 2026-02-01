@@ -135,3 +135,44 @@ header .view-resume {
   gap: 1rem;
   text-align: left;
 }
+
+input,
+textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--color-dark);
+}
+
+.about {
+  background: var(--color-light);
+}
+
+.contact p:last-of-type {
+  margin-bottom: 1.5rem;
+}
+
+.contact form button {
+  align-self: flex-start;
+}
+
+.btn-primary:hover,
+.view-resume:hover {
+  opacity: 0.9;
+  background: #555;
+}
+
+.btn-primary:hover {
+  background: #1a1a1a;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
