@@ -42,6 +42,11 @@ p {
 
 /* Layout */
 header {
+position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -97,6 +102,10 @@ header a:hover {
 
 .btn-primary {
   background: var(--color-dark);
+}
+
+main {
+  padding-top: 60px;
 }
 
 .hero {
@@ -242,10 +251,14 @@ textarea:focus {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 510px) {
 
     .logo{
         align-self: center;
+    }
+
+    main {
+        padding-top: 130px;
     }
 
     header {
@@ -264,3 +277,9 @@ textarea:focus {
       justify-content: center;
     }
   }
+
+@media (max-width: 275px) {
+    main {
+        padding-top: 170px;
+    }
+}
