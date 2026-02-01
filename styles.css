@@ -236,3 +236,26 @@ textarea:focus {
     font-size: 1.25rem;
   }
 }
+
+@media (max-width: 500px) {
+
+    .logo{
+        align-self: center;
+    }
+
+    header {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 1rem;
+    }
+  
+    header nav {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    header nav ul {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
